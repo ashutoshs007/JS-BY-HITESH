@@ -168,35 +168,36 @@ and and true gives 1 and false gives 0 */
 // //  waise hi treat hoga final ans
 // console.log(3 + 4 * 5 % 3);
 
-console.log(true);
-console.log(+true);
-console.log(+"");
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
 
-let num1,num2,num3
+// let num1,num2,num3
 
-num1 = num2 =num3= 2 + 2
+// num1 = num2 =num3= 2 + 2
 
-let gameCounter =100
-gameCounter++;
-console.log(gameCounter);
-
-
+// let gameCounter =100
+// ++gameCounter;
+// console.log(gameCounter);
 
 
 
 
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);
+
+console.log(undefined ==0);
+console.log(undefined > 0);
+console.log(undefined < 0);
 
 
 
+/*strict check(===)(not only check values but 
+but checks it's data type as well)*/
 
 
-
-
-
-
-
-
-
+console.log("2"===2);
 
 
 
