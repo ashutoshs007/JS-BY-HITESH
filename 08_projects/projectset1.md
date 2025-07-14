@@ -76,3 +76,32 @@ form.addEventListener('submit', function (e) {
 
 ```
 
+
+
+# Solution code
+
+
+## project 2
+
+```javascript
+
+document.getElementById('clock')
+//const clock = document.querySelector('#clock')
+
+
+
+//setInterval //(controls events of JS,aap mujhe ek koi bhi method de dijiye aaur interval bta dijiye ki kitne interval baad mai isko continously run krte jaunga)
+
+setInterval(function(){
+  let date = new Date()
+  clock.innerHTML =date.toLocaleTimeString();
+console.log(date.toLocaleTimeString());
+},1000)
+
+
+//1000 for 1 sec coz the parameter is in milliseconds
+
+
+
+
+
