@@ -41,11 +41,16 @@ buttons.forEach(function(button){
 
 });
 
+
+
+
 ```
+# Solution code
 
 
+## project 2
 
-##project 2
+```javascript
 
 const form = document.querySelector('form');
 // this usecase will give you empty
@@ -68,4 +73,6 @@ form.addEventListener('submit', function (e) {
     results.innerHTML = `<span>${bmi}</span>`;
   }
 });
+
+```
 
