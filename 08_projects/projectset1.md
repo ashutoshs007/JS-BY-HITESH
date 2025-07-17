@@ -81,7 +81,7 @@ form.addEventListener('submit', function (e) {
 # Solution code
 
 
-## project 2
+## project 3
 
 ```javascript
 
