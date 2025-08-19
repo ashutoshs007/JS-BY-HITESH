@@ -1,0 +1,1 @@
+<!-- Javascript is synchronous and single threaded by default -->
